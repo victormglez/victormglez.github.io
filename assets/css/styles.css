@@ -1,98 +1,7 @@
-/* -------------------------------------------
-
-Name: 		Arter
-Version:  1.0
-Author:		Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). mail: miller.themes@gmail.com
-
-------------------------------------------- */
-/*--------------------------------------------
-
-1. common
-      - fonts
-      - text defaults
-      - title defaults
-      - text config
-      - container
-      - buttons frame
-      - suptitle
-      - divider
-      - image defaults
-      - link defaults
-      - table
-      - quote
-      - list
-2. link
-3. buttons
-4. space
-5. app marcup
-      - top background
-      - preloader
-      - scroll frame
-      - app
-      - mobile top bar
-      - info bar
-      - content
-      - menu bar
-      - marcup media queries
-6. info bar
-      - header
-      - name
-      - language skills
-      - hard skills
-      - knowledge
-      - info bar links
-      - social links
-      - progresbar color
-7. menu bar
-      - main menu
-      - language change
-      - current page title
-8. content
-      - section title
-      - card
-      - banner
-      - typing code
-      - counters
-      - services
-      - price
-      - testimonials
-      - timeline
-      - contact form
-      - blog
-      - pagination
-      - brands
-      - footer
-9. portfolio
-      - filter
-      - portfolio items
-      - touch device querie
-      - single project
-      - fancybox customization
-10. media queries
-11. burger button
-12. transitions
-      - in animation
-      - out animation
-
-
---------------------------------------------*/
-/*
-$main-color: #FFC107
-$main-color: #f44336;
-$main-color: #4CAF50;
-$main-color: #64B5F6;
-*/
-/* ------------------------------
-
-common
-
------------------------------- */
 /* ----- fonts ----- */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
 /* ----- text defaults ----- */
 body {
   color: #8c8c8e;
@@ -2185,40 +2094,6 @@ content
   opacity: 1;
 }
 
-/* ----- footer ----- */
-footer {
-  width: 100%;
-  padding: 17px 30px 7px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
-  -webkit-box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
-          box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
-  font-size: 11px;
-  color: #8c8c8e;
-  -webkit-transition: 0.55s ease-in-out;
-  transition: 0.55s ease-in-out;
-  z-index: 9;
-}
-footer div {
-  margin-bottom: 10px;
-}
-footer a {
-  -webkit-transition: 0.2s ease-in-out;
-  transition: 0.2s ease-in-out;
-}
-footer a:hover {
-  color: #fafafc;
-}
 
 /* ------------------------------
 
@@ -2818,5 +2693,3 @@ html.is-animating .fade-left {
             transform: scale(1);
   }
 }
-
-/*# sourceMappingURL=style.css.map */
