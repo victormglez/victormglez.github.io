@@ -1,13 +1,3 @@
-/* -------------------------------------------
-
-Name: 		Arter
-Version:  1.0
-Author:		Nazar Miller (millerDigitalDesign)
-Portfolio:  https://themeforest.net/user/millerdigitaldesign/portfolio?ref=MillerDigitalDesign
-
-p.s. I am available for Freelance hire (UI design, web development). mail: miller.themes@gmail.com
-
-------------------------------------------- */
 $(function() {
 
   "use strict";
@@ -36,7 +26,7 @@ $(function() {
   // page loading
   $(document).ready(function() {
     anime({
-      targets: '.art-preloader .art-preloader-content',
+      targets: '.art-preloader-content',
       opacity: [0, 1],
       delay: 200,
       duration: 600,
@@ -46,7 +36,7 @@ $(function() {
       }
     });
     anime({
-      targets: '.art-preloader',
+      targets: '.art-preloader-content',
       opacity: [1, 0],
       delay: 2200,
       duration: 400,
@@ -56,23 +46,6 @@ $(function() {
       }
     });
   });
-
-  var bar = new ProgressBar.Line(preloader, {
-    strokeWidth: 1.7,
-    easing: 'easeInOut',
-    duration: 1400,
-    delay: 750,
-    trailWidth: 1.7,
-    svgStyle: {
-      width: '100%',
-      height: '100%'
-    },
-    step: (state, bar) => {
-      bar.setText(Math.round(bar.value() * 100) + ' %');
-    }
-  });
-
-  bar.animate(1);
 
   // counters
   anime({

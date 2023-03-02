@@ -427,7 +427,7 @@ app marcup
 }
 
 /* ----- preloader ----- */
-.art-preloader {
+.art-preloader-content {
   margin: 15px;
   position: absolute;
   top: 0;
@@ -446,15 +446,16 @@ app marcup
       -ms-flex-pack: center;
           justify-content: center;
 }
-.art-preloader .art-preloader-content {
+.art-preloader-content {
   margin-bottom: 15px;
   text-align: center;
 }
-.art-preloader .art-preloader-content .art-preloader-load {
+
+.art-preloader-content .art-preloader-load {
   margin-top: 5px;
   width: 200px;
 }
-.art-preloader .art-preloader-content .art-preloader-load .progressbar-text {
+.art-preloader-content .art-preloader-load .progressbar-text {
   position: relative;
   font-size: 14px;
   font-weight: 400 !important;
@@ -673,7 +674,7 @@ app marcup (after 920px)
   }
 
   /* ----- preloader ----- */
-  .art-preloader {
+  .art-preloader-content {
     margin: 0;
     width: 100vw;
     height: 100vh;
