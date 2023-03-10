@@ -1372,7 +1372,7 @@ content
 
 /* ----- card ----- */
 .art-card {
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   padding: 30px;
@@ -1484,7 +1484,7 @@ content
   overflow: hidden;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
 }
 .art-service-icon-box .art-service-ib-content {
   padding: 30px;
@@ -1508,7 +1508,7 @@ content
   overflow: hidden;
   position: relative;
   background-size: cover;
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   text-align: center;
@@ -1621,7 +1621,7 @@ content
   position: relative;
   background-size: cover;
   padding: 30px;
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
 }
@@ -1781,7 +1781,7 @@ content
 .art-timeline .art-timeline-content {
   position: relative;
   margin-right: 45px;
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   padding: 30px;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -1969,7 +1969,7 @@ content
   transition: 0.4s ease-in-out;
 }
 .art-blog-card .art-post-description {
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   padding: 30px;
   position: relative;
   bottom: 0;
@@ -1988,7 +1988,7 @@ content
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   padding: 30px 30px 25px;
-  background: linear-gradient(159deg, #2d2d3a 0%, #2b2b35 100%);
+  background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -2149,7 +2149,7 @@ portfolio
 .art-grid .art-grid-item:hover .art-item-description {
   -webkit-transform: translateY(0);
           transform: translateY(0);
-}
+} 
 .art-grid.art-grid-2-col .art-grid-item {
   width: 50%;
 }
