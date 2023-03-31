@@ -17,10 +17,9 @@ h1,
 h2,
 h3,
 h4,
-h5,
 h6 {
   font-weight: 700; 
-  color: black; /*Full font color*/
+  color: rgb(0, 0, 0); /*Full font color*/
   margin-bottom: 0;
   font-family: "Poppins", sans-serif;
 }
@@ -38,6 +37,7 @@ h4 {
 h5 {
   font-size: 14px;
   font-weight: 600;
+  color: #ffffff;
 }
 
 h6 {
@@ -47,8 +47,8 @@ h6 {
 
 /* ----- text config ----- */
 .art-sm-text {
-  font-size: 11px;
-  color: #adadad; /*color mechatronic*/
+  font-size: 12px;
+  color: #000000; /*color mechatronic*/
 }
 
 .art-lg-text {
@@ -77,7 +77,7 @@ h6 {
 
 /* ----- divider ----- */
 .art-ls-divider {
-  background: #7a7a7a;
+  background: #8c8c8e;
   width: 100%;
   height: 1px;
   opacity: 0.3;
@@ -704,14 +704,14 @@ info bar
 
 /* ----- progresbar color ----- */
 .art-line-progress path:first-child {
-  stroke: #191923;
+  stroke: #757575;
 }
 .art-line-progress path:last-child {
   stroke: #FFC107;
 }
 
 .art-cirkle-progress path:first-child {
-  stroke: #191923;
+  stroke: #757575;
 }
 .art-cirkle-progress path:last-child {
   stroke: #FFC107;
@@ -744,7 +744,7 @@ content
 /* ----- card ----- */
 .art-card {
   /*background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);*/ /*background color contacto*/
-  background: #3A51D5;
+  background: #4447e7;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   padding: 30px;
@@ -816,7 +816,7 @@ content
   position: relative;
 }
 .art-timeline .art-timeline-item .art-timeline-mark-light {
-  background: #3A51D5; /*background punto linea del tiempo hover*/
+  background: #4447e7; /*background punto linea del tiempo hover*/
   position: absolute;
   top: 4px;
   right: -4px;
@@ -846,8 +846,7 @@ content
 .art-timeline .art-timeline-content {
   position: relative;
   margin-right: 45px;
-  /*background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);*/ /*background informacion linea del tiempo*/
-  background: #3A51D5;
+  background: #4447e7; /*background informacion linea del tiempo*/
   padding: 30px;
   margin-bottom: 30px;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -856,7 +855,7 @@ content
 .art-timeline .art-timeline-content:after {
   height: 10px;
   width: 10px;
-  background-color: #3A51D5;
+  background-color: #4447e7;
   -webkit-transform: rotate(-135deg);
           transform: rotate(-135deg);
   content: '';
@@ -880,9 +879,9 @@ content
   margin-bottom: 15px;
 }
 .art-timeline .art-timeline-content .art-card-header .art-right-side .art-date {
-  color: #ffffff; /*color texto fecha eduacion */
+  color: #000000; /*color texto fecha eduacion */
   margin-left: auto;
-  background: #707175; /*background fecha eduacion*/
+  background: #e6e6e6; /*background fecha eduacion*/
   padding: 5px 15px;
   border-radius: 15px;
   -webkit-box-shadow: inset 0 3px 8px 0 rgba(15, 15, 20, 0.2);
@@ -908,26 +907,26 @@ content
 }
 
 ::-webkit-input-placeholder {
-  color: #646466;
+  color: #ffffff;
 }
 
 :-ms-input-placeholder {
-  color: #646466;
+  color: #ffffff;
 }
 
 ::-ms-input-placeholder {
-  color: #646466;
+  color: #ffffff;
 }
 
 ::placeholder {
-  color: #646466;
+  color: #ffffff;
 }
 
 .art-form-field textarea {
   padding-left: 15px;
   padding-top: 15px;
   height: 150px;
-  border-left: solid 50px #20202a;
+  border-left: solid 50px #000000;
 }
 .art-form-field textarea.art-active {
   border-color: #FFC107;
@@ -943,7 +942,7 @@ content
 .art-contact-form .art-input.art-active + label,
 .art-contact-form .art-input:focus + label {
   background: #FFC107;
-  color: #20202a;
+  color: #000000;
 }
 
 .art-form-field {
@@ -953,11 +952,11 @@ content
 
 .art-contact-form label {
   text-align: center;
-  color: #8c8c8e;
+  color: #ffffff;
   position: absolute;
   height: 50px;
   width: 50px;
-  background: #20202a;
+  background: #000000;
   top: 0;
   left: 0;
   padding: 0 15px;
@@ -1035,8 +1034,8 @@ content
   transition: 0.4s ease-in-out;
 }
 .art-blog-card .art-post-description {
-  /*background: linear-gradient(159deg, #262675 0%, #2b2b35 100%);*/ /*background courses*/
-  background: #3A51D5;
+  /*background: linear-gradient(159deg, #262675 0%, #2b2b35 100%); /*background courses*/
+  background: #4447e7;
   padding: 30px;
   position: relative;
   bottom: 0;
