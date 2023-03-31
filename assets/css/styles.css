@@ -1145,7 +1145,7 @@ portfolio
           box-shadow: 0 1px 4px 0 rgba(15, 15, 20, 0.1);
   border-radius: 50%;
   position: absolute;
-  color: #fafafc;
+  color: #ffffff;
   top: 30px;
   left: 30px;
   background: linear-gradient(159deg, rgba(45, 45, 58, 0.88) 0%, rgba(43, 43, 53, 0.88) 100%);
@@ -1204,7 +1204,9 @@ portfolio
   left: 15px;
   width: calc(100% - 29px);
   padding: 30px;
-  background: linear-gradient(159deg, rgba(45, 45, 58, 0.98) 0%, rgba(43, 43, 53, 0.98) 100%);
+  /*background: linear-gradient(159deg, rgba(45, 45, 58, 0.98) 0%, rgba(43, 43, 53, 0.98) 100%);
+  */
+  background: #4447e7;
   -webkit-box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
           box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
   -webkit-transform: translateY(100%);
