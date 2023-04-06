@@ -154,7 +154,6 @@ link
 .art-link.art-w-chevron:after {
   position: absolute;
   font-family: "Font Awesome 5 free";
-  content: '\f35d';
   font-weight: 900;
   display: inline-block;
   font-style: normal;
@@ -412,8 +411,9 @@ space
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-info-bar-header .art-info-bar-btn {
   margin-left: auto;
   pointer-events: all;
-  font-size: 14px;
+  font-size: 25px;
   padding: 30px;
+  color: #000000;
 }
 .art-app .art-app-wrapper .art-app-container .art-info-bar .art-info-bar-frame .art-info-bar-header .art-info-bar-btn.art-disabled {
   opacity: 0;
