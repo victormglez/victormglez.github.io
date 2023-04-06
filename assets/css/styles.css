@@ -1219,6 +1219,8 @@ portfolio
   -webkit-transform: translateY(0);
           transform: translateY(0);
 } 
+
+/* 2 GRID */
 .art-grid.art-grid-2-col .art-grid-item {
   width: 50%;
 }
@@ -1231,6 +1233,9 @@ portfolio
 .art-grid.art-grid-2-col .art-grid-item .art-portfolio-item-frame.art-square {
   padding-bottom: 90%;
 }
+
+/* 3 GRID */
+
 .art-grid.art-grid-3-col .art-grid-item {
   width: 33.3333%;
 }
