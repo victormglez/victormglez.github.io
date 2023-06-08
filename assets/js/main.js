@@ -75,7 +75,8 @@ $(function() {
     }
   });
 
-  // progressbars
+  //SPANISH
+
   var bar = new ProgressBar.Circle(circleprog1, {
     strokeWidth: 7,
     easing: 'easeInOut',
@@ -92,6 +93,8 @@ $(function() {
   });
 
   bar.animate(1);
+
+  //ENGLISH
 
   var bar = new ProgressBar.Circle(circleprog2, {
     strokeWidth: 7,
@@ -110,6 +113,8 @@ $(function() {
 
   bar.animate(0.9);
 
+  //GERMAN
+
   var bar = new ProgressBar.Circle(circleprog3, {
     strokeWidth: 7,
     easing: 'easeInOut',
@@ -127,6 +132,8 @@ $(function() {
 
   bar.animate(0.2);
 
+  //MICROSOFT
+
   var bar = new ProgressBar.Line(lineprog1, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -142,6 +149,8 @@ $(function() {
   });
 
   bar.animate(1);
+
+  //C/C++
 
   var bar = new ProgressBar.Line(lineprog2, {
     strokeWidth: 1.72,
@@ -159,6 +168,8 @@ $(function() {
 
   bar.animate(.80);
 
+  //SolidWorks
+
   var bar = new ProgressBar.Line(lineprog3, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -174,6 +185,8 @@ $(function() {
   });
 
   bar.animate(.80);
+
+  //ANSYS
 
   var bar = new ProgressBar.Line(lineprog4, {
     strokeWidth: 1.72,
@@ -191,6 +204,8 @@ $(function() {
 
   bar.animate(.80);
 
+  //MATLAB
+
   var bar = new ProgressBar.Line(lineprog5, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -206,6 +221,8 @@ $(function() {
   });
 
   bar.animate(.60);
+
+  //HTML
 
   var bar = new ProgressBar.Line(lineprog6, {
     strokeWidth: 1.72,
@@ -223,6 +240,8 @@ $(function() {
 
   bar.animate(.60);
 
+  //MYSQL
+
   var bar = new ProgressBar.Line(lineprog7, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -238,6 +257,8 @@ $(function() {
   });
 
   bar.animate(.60);
+
+  //JAVA
 
   var bar = new ProgressBar.Line(lineprog8, {
     strokeWidth: 1.72,
@@ -255,6 +276,8 @@ $(function() {
 
   bar.animate(.60);
 
+  //Agile
+
   var bar = new ProgressBar.Line(lineprog9, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -270,6 +293,8 @@ $(function() {
   });
 
   bar.animate(.40);
+
+  //EMBEDDED
 
   var bar = new ProgressBar.Line(lineprog10, {
     strokeWidth: 1.72,
@@ -287,6 +312,8 @@ $(function() {
 
   bar.animate(.40);
 
+  //GITHUB
+
   var bar = new ProgressBar.Line(lineprog11, {
     strokeWidth: 1.72,
     easing: 'easeInOut',
@@ -302,6 +329,25 @@ $(function() {
   });
 
   bar.animate(.30);
+
+  //ELEMENTO FINITO
+
+  var bar = new ProgressBar.Line(lineprog12, {
+    strokeWidth: 1.72,
+    easing: 'easeInOut',
+    duration: 1400,
+    trailWidth: 1.72,
+    svgStyle: {
+      width: '100%',
+      height: '100%'
+    },
+    step: (state, bar) => {
+      bar.setText(Math.round(bar.value() * 100) + ' %');
+    }
+  });
+
+  bar.animate(.60);
+
 
   // Contact form
   $('.art-input').keyup(function() {
