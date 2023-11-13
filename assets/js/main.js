@@ -2,6 +2,20 @@ $(function() {
 
   "use strict";
 
+
+  // age
+  
+  const dob = new Date("04/09/1999");
+
+  dob.toLocaleDateString = dob.toLocaleDateString('en-us');
+
+  var month_diff = Date.now() - dob.getTime();
+  var age_dt = new Date(month_diff);
+  var year = age_dt.getUTCFullYear();
+  var age = Math.abs(year - 1970);
+
+  document.querySelector('.year').innerHTML = age;
+
   // swup js
   const options = {
     containers: ["#swup", "#swupMenu"],
