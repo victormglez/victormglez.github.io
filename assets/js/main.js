@@ -416,6 +416,24 @@ $(function() {
 
   bar.animate(.40);
 
+    //Selenium WebDriver
+
+    var bar = new ProgressBar.Line(lineprog16, {
+      strokeWidth: 1.72,
+      easing: 'easeInOut',
+      duration: 1400,
+      trailWidth: 1.72,
+      svgStyle: {
+        width: '100%',
+        height: '100%'
+      },
+      step: (state, bar) => {
+        bar.setText(Math.round(bar.value() * 100) + ' %');
+      }
+    });
+  
+    bar.animate(.20);
+
 
   /***********************FIN SKILLS**************************** */
 
